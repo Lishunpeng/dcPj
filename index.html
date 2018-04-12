@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width,initial-scale=1.0" charset="utf-8">    
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/public.css"/>
+		<script src="js/fontSize.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<header>
+			<div>广州</div>
+			<div class="center"><span class="search"></span><input type="text" placeholder="挑好房，上安居客" /><span class="qrcode"></span></div>
+			<div>地图</div>
+		</header>
+		<div class="container">
+			<ul class="list">
+				
+			</ul>
+			<div class="headNews">
+				<div class="headNews_head">
+					<span class="left"></span>
+					<p class="lineBroke">这是题目这是题目这是题目这是题目这是题目这是题目这是题目这是题目</p>
+					<span class="right"></span>
+				</div>
+				<div class="headNews_content">
+					<li>
+						<div class="imgbox"></div>
+						<p class="title lineBroke">题目题题目题题目题</p>
+						<p class="text lineBroke">内容内容内容内容</p>
+					</li>
+					<li>
+						<div class="imgbox"></div>
+						<p class="title lineBroke">题目题题目题</p>
+						<p class="text lineBroke">内容内容内容内容内容内容</p>
+					</li>
+					<li>
+						<div class="imgbox"></div>
+						<p class="title lineBroke">题目题题目题题目题</p>
+						<p class="text lineBroke">内容内容内容内容内容内容</p>
+					</li>
+				</div>
+			</div>
+			<div class="recom_NewHouse">
+				<div class="recom_NewHouse_head">
+					<div><p>为您推荐</p></div>
+				</div>
+				<ul class="recom_NewHouse_list">
+					<li>
+						<div class="imgbox"></div>
+						<div class="text">
+							<p class="title lineBroke">越南海景房</p>
+							<p style="color: #898989;">广州-天河<span style="float: right;color: #ff6000;">18888元/m*m</span></p>
+							<p style="color: #898989;">建筑面积:80-135m*m</p>
+							<div class="bottomList">
+								<span style="color: skyblue;">在售</span>
+								<span style="color: green;">住宅</span>
+								<span>即将开盘</span>
+							</div>
+							<div class="bottomSelect">
+								<span>热</span>
+								<select name="">
+									<option value="">首期15万买</option>
+									<option value="">首期15万买</option>
+								</select>
+							</div>
+							
+						</div>
+					</li>
+					<li style="display: block;">
+						<div class="titleBox">
+							富士康
+							<span style="color: #898989;margin-left: 15px;">从化-温泉</span>
+							<span style="color: #ff6000;float: right;">20000元/m*2</span>
+						</div>
+						<div class="imgBigBox">
+							<div class="imgbox"></div>
+							<div class="imgbox"></div>
+							<div class="imgbox"></div>
+						</div>
+						<div class="text" style="height: auto;flex: none;">
+							<div class="bottomList" style="margin-top: .1rem;line-height: .5rem;">
+									<p class="lineBroke" style="width: 2rem;float: left;">建筑面积：123M*M</p>
+									<span style="color: skyblue;">在售</span>
+									<span style="color: green;">住宅</span>
+									<span>旅游景点</span>
+									<span>养老房</span>
+							</div>
+							<div class="bottomSelect">
+								<span>热</span>
+								<select name="">
+									<option value="">首期15万买</option>
+									<option value="">首期15万买</option>
+								</select>
+							</div>
+						</div>
+					</li>
+					<div class="more"><p>查看更多新房</p></div>
+				</ul>
+			</div>
+		</div>
+		<div class="line"></div>
+		<div class="container" style="margin-bottom: 1.1rem;">
+				<div class="recom_NewHouse" style="margin-top: 15px;">
+					<div class="recom_NewHouse_head">
+						<div><p>为您推荐二手房</p></div>
+					</div>
+					<ul class="recom_NewHouse_list">
+						<li>
+							<div class="imgbox"></div>
+							<div class="text" style="height: 2rem;flex: 8;">
+								<p class="title lineBroke">越南海景房</p>
+								<p style="color: #898989;">机械路时代花园</p>
+								<p style="color: #898989;">3室1厅89平方<span style="float: right;color: #ff6000;">200万</span></p>
+								<div class="bottomList">
+									<span style="color: skyblue;">南北通透</span>
+									<span style="color: green;">远离马路</span>
+									<span style="color: #ff6000;">采光好</span>
+								</div>
+							</div>
+						</li>
+						<div class="more"><p>查看更多二手房</p></div>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<footer>
+			<li><span></span><p>首页</p></li>
+			<li><span></span><p>首页</p></li>
+			<li><span></span><p>首页</p></li>
+			<li><span></span><p>首页</p></li>
+			<li><span></span><p>首页</p></li>
+		</footer>
+	</body>
+	<script src="js/jquery-2.1.0.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		var data = [
+			{name:'新房',color:'#ccc'},
+			{name:'新房',color:'#ccc'},
+			{name:'新房',color:'#ccc'},
+			{name:'新房',color:'#ccc'},
+			{name:'新房',color:'#ccc'},
+			{name:'新房',color:'#ccc'},
+			{name:'新房',color:'#ccc'},
+			{name:'新房',color:'#ccc'},
+			{name:'新房',color:'#ccc'},
+			{name:'新房',color:'#ccc'}
+		]
+		for (var i in data) {
+			$('.list').append("<li><span style='background:"+data[i].color+";'></span><p>"+data[i].name+"</p></li>")		
+		}
+		
+	</script>
+</html>

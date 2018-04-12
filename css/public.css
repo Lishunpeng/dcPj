@@ -1,0 +1,54 @@
+*{margin: 0;padding: 0;border: 0;list-style: none;font-family: "微软雅黑";font-style: normal;font-size: .3rem;box-sizing: border-box;}
+input,select{color: #898989;}
+.lineBroke{overflow:hidden;white-space:nowrap;text-overflow:ellipsis;}
+.more{height: 1rem;width: 100%;}
+.more p{height: 1rem;width: 60%;margin: 0 auto;background: #e1e1e1;font-size: .4rem;line-height: 1rem;text-align: center;color: #333333;margin-top: .2rem;}
+.more p:active{background: #ccc;}
+header{width: 100%;display: flex;height: 1rem;background: green;}
+header div.center{flex: 4;text-align: center;position: relative;}
+header div input{border-radius:0.1rem;height: .6rem;margin-top: .2rem;width: 100%;padding: 0 .8rem;line-height: .6rem;}
+header div span{background: #ccc;display: block;width: .4rem;height: .4rem;position: absolute;top: .3rem;}
+header div span.search{left: .2rem;}
+header div span.qrcode{left: auto;right: .2rem;}
+header div{flex: 1;height: 100%;line-height: 1rem;color: #fff;text-align: center;}
+footer{display: flex;height: 1.1rem;position: fixed;bottom: 0;left: 0;width: 100%;background: #fff;border-top:1px solid #e1e1e1 ;padding-top: .1rem;}
+footer li{flex: 1;height: 100%;}
+footer li+li{margin-left: 15px;}
+footer li span{background: #ccc;display: block;width: 80%;height: .6rem;margin: 0 auto;}
+footer li p{text-align: center;}
+.container{padding: .3rem;background: #fff;}
+.list{height: auto;overflow: hidden;}
+.list li{float: left;width: 20%;height: 1.5rem;}
+.list span{background: #ccc;width: 80%;height: 1rem;display: block;margin: 0 auto;border-radius:50% ;}
+.list p{text-align: center;}
+
+.headNews_head{height: .8rem;width: 100%;display: flex;padding-bottom: .2rem;border-bottom: 1px solid #e1e1e1;}
+.headNews_head .left{width: 2.5rem;background: #ccc;height: 100%;flex: 4;}
+.headNews_head p{flex: 5;line-height: .8rem;margin: 0 10px;}
+.headNews_head .right{flex: 1;background: #ccc;}
+.headNews_content{height: auto;display: flex;padding: 10px 0;}
+.headNews_content li{flex: 1; border:1px solid #e1e1e1;height: 2.3rem;overflow: hidden;}
+.headNews_content li+li{margin-left: 15px;}
+.headNews_content li .imgbox{height: 1.3rem;width: 100%;background: #ff0000;}
+.headNews_content li .title{height: .5rem;width: 100%;text-align: center;line-height: .5rem;color: #000;font-size: .4rem;}
+.headNews_content li .text{height: .4rem;width: 100%;text-align: center;text-align: center;}
+
+
+.recom_NewHouse_head{height: 1rem;width: 100%;}
+.recom_NewHouse_head p{text-align: center;font-size: .4rem;line-height: 1rem;font-weight: bold;color: green;}
+.recom_NewHouse_head div{width: 60%;margin: 0 auto;height: 100%;background: #f5f5f5;}
+
+.recom_NewHouse_list li{height: auto;display: flex;padding: .3rem 0;border-bottom: 1px solid #e1e1e1;padding-bottom: .2rem;}
+.recom_NewHouse_list li>div.imgbox{flex: 4;background: #ccc;margin-right: 15px;height: 2rem;}
+.recom_NewHouse_list li>div.text{flex: 6;height:2.5rem;overflow: hidden;}
+.recom_NewHouse_list li>div.text .title{font-size: .4rem;width: 100%;color: #000000;}
+.recom_NewHouse_list li>div.text .bottomList{height: .8rem;width: 100%;}
+.recom_NewHouse_list li>div.text .bottomList span{margin-left: 5px;;marker: .1rem;display: block;float: left;background: #F5F5F5;color: #333;padding: 0 5px;height: .6rem;line-height: .6rem;}
+.recom_NewHouse_list li>div.text .bottomSelect{display: flex;height: .5rem;}
+.recom_NewHouse_list li>div.text .bottomSelect span{width: .5rem;height: 100%;color: #fff;background: #FF0000;text-align: center;layout-flow: .5rem;margin-right: .4rem;}
+.recom_NewHouse_list li>.imgBigBox{display: flex;height: 1.5rem;width: 100%;}
+.recom_NewHouse_list li>.imgBigBox .imgbox{flex: 1;background: #ccc;height: 100%;}
+.recom_NewHouse_list li>.imgBigBox .imgbox+.imgbox{margin-left: 15px;}
+.recom_NewHouse_list li>.titleBox{height: .6rem;color: #000000;font-size: .4rem;}
+
+.line{height: .2rem;background: #e1e1e1;width: 100%;margin: .1rem 0;}
